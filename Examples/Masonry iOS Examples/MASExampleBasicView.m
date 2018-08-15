@@ -61,7 +61,7 @@
     }];
     
     [blueView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(greenView.mas_bottom).offset(padding);
+        make.top.equalTo(greenView.mas_bottom).offset(10);
         make.left.equalTo(superview.mas_left).offset(padding);
         make.bottom.equalTo(superview.mas_bottom).offset(-padding);
         make.right.equalTo(superview.mas_right).offset(-padding);
